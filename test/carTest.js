@@ -9,10 +9,10 @@ describe('carTest',function(){
         })
     })
 
-    describe("carAge",function(){
-        it('Car Age Should Not Be 23 when since=1999', function(){
-            var result = new Date().getFullYear()-1999
-            assert.notEqual(result,23)
-        })
-    })
+    //describe("carAge",function(){
+        //it('Car Age Should Not Be 23 when since=1999', function(){
+           // var result = new Date().getFullYear()-1999
+            //assert.notEqual(result,23)
+        //})
+    //})
 })
