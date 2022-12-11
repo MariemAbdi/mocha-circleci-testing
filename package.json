@@ -7,7 +7,8 @@
     "test": "test"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-mocha":"mocha"
   },
   "repository": {
     "type": "git",
@@ -20,6 +21,7 @@
   },
   "homepage": "https://github.com/MariemAbdi/mocha-circleci-testing#readme",
   "dependencies": {
+    "ejs": "^3.1.8",
     "mocha": "^10.2.0",
     "mochawesome": "^7.1.3"
   }
